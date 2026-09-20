@@ -1,0 +1,8 @@
+line_number,raw_fields,reason
+21,2026-07-11 09:30:00  |  T1021  |  A70001  |  BITCOIN_PURCHASE  |  100.00  |  Brisbane  |  APPROVED,Invalid transaction type 'BITCOIN_PURCHASE'
+22,2026-07-11 09:31:00  |  T1022  |  A70002  |  CARD_PAYMENT  |  -50.00  |  Brisbane  |  APPROVED,Amount '-50.00' must be a positive number with up to 2 decimal places
+23,2026-07-11 09:32:00  |  T1023  |  A70003  |  CARD_PAYMENT  |  abc  |  Brisbane  |  APPROVED,Amount 'abc' must be a positive number with up to 2 decimal places
+24,2026-07-11 09:33:00  |  T1024  |  A70004  |  CARD_PAYMENT  |  100.00  |  Brisbane  |  UNKNOWN,Invalid status 'UNKNOWN'
+25,2026-07-11 09:34:00  |  T1025  |  A70005  |  CARD_PAYMENT  |  100.00  |  Brisbane,"Expected 7 fields, found 6"
+26,2026-07-11 09:35:00  |  T1026  |   A70006  |  CARD_PAYMENT  |  100.00  |  Brisbane  |  APPROVED,One or more fields contain leading/trailing whitespace
+27,2026-07-11 09:40:00  |  T1001  |  A10025  |  TRANSFER  |  200.00  |  Brisbane  |  APPROVED,Duplicate transaction ID 'T1001'

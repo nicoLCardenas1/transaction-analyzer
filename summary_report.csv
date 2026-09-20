@@ -1,0 +1,13 @@
+Metric,Value
+Total records processed,27
+Total valid records,20
+Total invalid records,7
+Total approved transactions,11
+Total declined transactions,9
+Total value of approved transactions,8737.5
+Total suspicious transactions,16
+Total suspicious accounts,4
+High-value transaction alerts,1
+Repeated-decline alerts,2
+Multiple-location alerts,1
+Time-based decline alerts (advanced),1
